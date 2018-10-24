@@ -31,4 +31,4 @@ profile = '{PROFILE_TO_RUN_SCRIPT_AGAINST}'
 
 ## Using the data files:
 
-Once the data file are created you can import them into a black Excel document and delimiting by :
+Once the data file are created you can import them into a black Excel document and delimiting by a colon ':'
