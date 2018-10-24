@@ -17,4 +17,18 @@ profile = '{PROFILE_TO_RUN_SCRIPT_AGAINST}'
 * For each reagion in the regions array create a data text file with the following information by Instance Type:
     * Number of active reservations for each instance type
     * Number of running instances for each instance type
-    * 
+    * Details about each running instance:
+        * InstanceID
+        * Instancey Type
+        * Instance Name
+        * Launch Time
+        * AZ
+        * Private IP
+        * Instance State
+    * Total Instances for the region
+    * Total Active Reservations for the region
+    * Percentage of reservations to instances
+
+## Using the data files:
+
+Once the data file are created you can import them into a black Excel document and delimiting by :
